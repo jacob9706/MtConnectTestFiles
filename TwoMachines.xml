@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:1.1" xmlns="urn:mtconnect.org:MTConnectStreams:1.1" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:1.1 http://www.mtconnect.org/schemas/MTConnectStreams_1.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header creationTime="2014-06-06T20:15:06" sender="localhost" instanceId="1402059909" bufferSize="131072" version="1.1" nextSequence="1525477" firstSequence="1394405" lastSequence="1525476"/>
+  <Streams>
+    <DeviceStream name="OMAXDualBRIDGEno2" uuid="OMAXDualBRIDGEno1">
+      <ComponentStream component="Controller" name="Controller" componentId="controller14_1">
+        <Events>
+          <EmergencyStop dataItemId="controller15_1" timestamp="2014-06-06T13:05:09.0875" name="estop" sequence="11">UNAVAILABLE</EmergencyStop>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Device" name="OMAXDualBRIDGEno1" componentId="d1_1">
+        <Events>
+          <Availability dataItemId="d2_1" timestamp="2014-06-06T20:15:06.0688" name="avail" sequence="1525471">AVAILABLE</Availability>
+        </Events>
+        <Condition>
+          <Unavailable dataItemId="d3_1" timestamp="2014-06-06T13:05:09.0875" name="system" sequence="20" type="SYSTEM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Electric" name="elec" componentId="elec27_1">
+        <Events>
+          <PowerState dataItemId="elec28_1" timestamp="2014-06-06T13:05:09.0945" name="power" sequence="21">ON</PowerState>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Hydraulic" name="hydr" componentId="hydr29_1">
+        <Samples>
+          <Flow dataItemId="hydr30_1" timestamp="2014-06-06T13:08:21.0302" name="Sspeed" sequence="10398">60000</Flow>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Path" name="path" componentId="path16_1">
+        <Samples>
+          <PathPosition dataItemId="path22_1" timestamp="2014-06-06T13:05:09.0875" name="path_position" sequence="17" subType="ACTUAL">UNAVAILABLE</PathPosition>
+          <PathFeedrate dataItemId="path23_1" timestamp="2014-06-06T20:15:06.0688" name="path_feedrate" sequence="1525474" subType="ACTUAL">82.57</PathFeedrate>
+        </Samples>
+        <Events>
+          <Line dataItemId="path17_1" timestamp="2014-06-06T20:15:06.0688" name="line" sequence="1525475">24872</Line>
+          <Execution dataItemId="path18_1" timestamp="2014-06-06T13:05:27.0790" name="execution" sequence="132">ACTIVE</Execution>
+          <ControllerMode dataItemId="path19_1" timestamp="2014-06-06T13:05:27.0790" name="mode" sequence="131">AUTOMATIC</ControllerMode>
+          <Program dataItemId="path20_1" timestamp="2014-06-06T13:05:09.0945" name="program" sequence="31">O-LOGO.ORD</Program>
+          <Block dataItemId="path21_1" timestamp="2014-06-06T20:15:06.0688" name="Block" sequence="1525476">24872</Block>
+        </Events>
+        <Condition>
+          <Normal dataItemId="path24_1" timestamp="2014-06-06T13:05:09.0945" name="comms" sequence="32" type="COMMUNICATIONS"/>
+          <Unavailable dataItemId="path25_1" timestamp="2014-06-06T13:05:09.0875" name="motion" sequence="15" type="MOTION_PROGRAM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X" componentId="x5_1">
+        <Samples>
+          <Position dataItemId="x6_1" timestamp="2014-06-06T20:15:06.0033" name="Xact" sequence="1525433" subType="ACTUAL">33.30</Position>
+          <Position dataItemId="x7_1" timestamp="2014-06-06T20:15:06.0142" name="Xcom" sequence="1525442" subType="COMMANDED">0.00</Position>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Y" componentId="y8_1">
+        <Samples>
+          <Position dataItemId="y10_1" timestamp="2014-06-06T20:15:06.0688" name="Ycom" sequence="1525473" subType="COMMANDED">82.57</Position>
+          <Position dataItemId="y9_1" timestamp="2014-06-06T20:15:06.0688" name="Yact" sequence="1525472" subType="ACTUAL">8.70</Position>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z" componentId="z11_1">
+        <Samples>
+          <Position dataItemId="z12_1" timestamp="2014-06-06T20:15:01.0883" name="Zact" sequence="1525205" subType="ACTUAL">-0.65</Position>
+          <Position dataItemId="z13_1" timestamp="2014-06-06T13:05:09.0945" name="Zcom" sequence="27" subType="COMMANDED">0.00</Position>
+        </Samples>
+      </ComponentStream>
+    </DeviceStream>
+    <DeviceStream name="OMAXDualBRIDGEno3" uuid="OMAXDualBRIDGEno1">
+      <ComponentStream component="Controller" name="Controller" componentId="controller14_1">
+        <Events>
+          <EmergencyStop dataItemId="controller15_1" timestamp="2014-06-06T13:05:09.0875" name="estop" sequence="11">UNAVAILABLE</EmergencyStop>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Device" name="OMAXDualBRIDGEno1" componentId="d1_1">
+        <Events>
+          <Availability dataItemId="d2_1" timestamp="2014-06-06T20:15:06.0688" name="avail" sequence="1525471">AVAILABLE</Availability>
+        </Events>
+        <Condition>
+          <Unavailable dataItemId="d3_1" timestamp="2014-06-06T13:05:09.0875" name="system" sequence="20" type="SYSTEM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Electric" name="elec" componentId="elec27_1">
+        <Events>
+          <PowerState dataItemId="elec28_1" timestamp="2014-06-06T13:05:09.0945" name="power" sequence="21">ON</PowerState>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Hydraulic" name="hydr" componentId="hydr29_1">
+        <Samples>
+          <Flow dataItemId="hydr30_1" timestamp="2014-06-06T13:08:21.0302" name="Sspeed" sequence="10398">60000</Flow>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Path" name="path" componentId="path16_1">
+        <Samples>
+          <PathPosition dataItemId="path22_1" timestamp="2014-06-06T13:05:09.0875" name="path_position" sequence="17" subType="ACTUAL">UNAVAILABLE</PathPosition>
+          <PathFeedrate dataItemId="path23_1" timestamp="2014-06-06T20:15:06.0688" name="path_feedrate" sequence="1525474" subType="ACTUAL">82.57</PathFeedrate>
+        </Samples>
+        <Events>
+          <Line dataItemId="path17_1" timestamp="2014-06-06T20:15:06.0688" name="line" sequence="1525475">24872</Line>
+          <Execution dataItemId="path18_1" timestamp="2014-06-06T13:05:27.0790" name="execution" sequence="132">ACTIVE</Execution>
+          <ControllerMode dataItemId="path19_1" timestamp="2014-06-06T13:05:27.0790" name="mode" sequence="131">AUTOMATIC</ControllerMode>
+          <Program dataItemId="path20_1" timestamp="2014-06-06T13:05:09.0945" name="program" sequence="31">O-LOGO.ORD</Program>
+          <Block dataItemId="path21_1" timestamp="2014-06-06T20:15:06.0688" name="Block" sequence="1525476">24872</Block>
+        </Events>
+        <Condition>
+          <Normal dataItemId="path24_1" timestamp="2014-06-06T13:05:09.0945" name="comms" sequence="32" type="COMMUNICATIONS"/>
+          <Unavailable dataItemId="path25_1" timestamp="2014-06-06T13:05:09.0875" name="motion" sequence="15" type="MOTION_PROGRAM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X" componentId="x5_1">
+        <Samples>
+          <Position dataItemId="x6_1" timestamp="2014-06-06T20:15:06.0033" name="Xact" sequence="1525433" subType="ACTUAL">33.30</Position>
+          <Position dataItemId="x7_1" timestamp="2014-06-06T20:15:06.0142" name="Xcom" sequence="1525442" subType="COMMANDED">0.00</Position>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Y" componentId="y8_1">
+        <Samples>
+          <Position dataItemId="y10_1" timestamp="2014-06-06T20:15:06.0688" name="Ycom" sequence="1525473" subType="COMMANDED">82.57</Position>
+          <Position dataItemId="y9_1" timestamp="2014-06-06T20:15:06.0688" name="Yact" sequence="1525472" subType="ACTUAL">8.70</Position>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z" componentId="z11_1">
+        <Samples>
+          <Position dataItemId="z12_1" timestamp="2014-06-06T20:15:01.0883" name="Zact" sequence="1525205" subType="ACTUAL">-0.65</Position>
+          <Position dataItemId="z13_1" timestamp="2014-06-06T13:05:09.0945" name="Zcom" sequence="27" subType="COMMANDED">0.00</Position>
+        </Samples>
+      </ComponentStream>
+    </DeviceStream>
+  </Streams>
+</MTConnectStreams>
