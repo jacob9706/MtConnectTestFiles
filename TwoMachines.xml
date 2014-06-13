@@ -18,7 +18,7 @@
       </ComponentStream>
       <ComponentStream component="Electric" name="elec" componentId="elec27_1">
         <Events>
-          <PowerState dataItemId="elec28_1" timestamp="2014-06-06T13:05:09.0945" name="power" sequence="21">OFF</PowerState>
+          <PowerState dataItemId="elec28_1" timestamp="2014-06-06T13:05:09.0945" name="power" sequence="21">ON</PowerState>
         </Events>
       </ComponentStream>
       <ComponentStream component="Hydraulic" name="hydr" componentId="hydr29_1">
