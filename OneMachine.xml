@@ -36,7 +36,7 @@
           <Line dataItemId="path17_1" timestamp="2014-06-06T20:15:06.0688" name="line" sequence="1525475">24872</Line>
           <Execution dataItemId="path18_1" timestamp="2014-06-06T13:05:27.0790" name="execution" sequence="132">ACTIVE</Execution>
           <ControllerMode dataItemId="path19_1" timestamp="2014-06-06T13:05:27.0790" name="mode" sequence="131">AUTOMATIC</ControllerMode>
-          <Program dataItemId="path20_1" timestamp="2014-06-06T13:05:09.0945" name="program" sequence="31">O-LOGO.ORD</Program>
+          <Program dataItemId="path20_1" timestamp="2014-06-06T13:05:09.0945" name="program" sequence="31">O-LOGO2.ORD</Program>
           <Block dataItemId="path21_1" timestamp="2014-06-06T20:15:06.0688" name="Block" sequence="1525476">24872</Block>
         </Events>
         <Condition>
